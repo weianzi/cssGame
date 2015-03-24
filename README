@@ -1,13 +1,21 @@
 git pull origin master
 
-��ȡԶ������
+获取远程最新
 
-��������������
+－－－－－－－
 
+git add README
+将文件添加到上传队列
+
+git commit -m 'test commit'
+缓存提交，引号中的是对本次提交的描述，必须填写，不能为空
 
 git remote add origin https://github.com/weianzi/cssGame.git
-���͵�Զ�̴����
+推送到远程代码库
+
+git push origin master
+将文件上传到版本库
 
 -------------------
- git config --global user.email "ancool@foxmail.com"
+git config --global user.email "ancool@foxmail.com"
 git config --global user.name "weianzi"
